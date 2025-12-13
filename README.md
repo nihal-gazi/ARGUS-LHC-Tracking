@@ -46,7 +46,7 @@ Standard Transformers are slow ( $O(N^2)$ ) and get confused by distant noise.
 ```bash
 git clone [https://github.com/YourUsername/ARGUS-LHC-Tracking.git](https://github.com/YourUsername/ARGUS-LHC-Tracking.git)
 cd ARGUS-LHC-Tracking
-
+```
 
 ### 2\. Install Dependencies
 
@@ -95,7 +95,7 @@ python predict_and_score.py
 
 ## 👥 The Team
 
-**Institute of Engineering & Management (IEM), Kolkata**
+*Students of Institute of Engineering & Management (IEM), Kolkata**
 
   * **Nihal Gazi** (CSE AI/ML) - *Lead Researcher & AI Architect*
   * Aditya Kr. Biswas (CSBS)
