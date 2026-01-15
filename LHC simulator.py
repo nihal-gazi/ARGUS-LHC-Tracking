@@ -20,7 +20,7 @@ def generate_helix_hits(track_id, event_id):
     # 1. Random Physics Parameters
     # q: Charge (+1 or -1)
     q = random.choice([-1, 1])
-    # pt: Transverse Momentum (0.5 GeV to 50 GeV) - determines curve radius
+    # pt: Transverse Momentum (0.5 GeV to 5.0 GeV) - determines curve radius
     pt = random.uniform(0.5, 5.0) 
     # phi0: Initial angle in X-Y plane
     phi0 = random.uniform(0, 2 * np.pi)
@@ -150,3 +150,4 @@ def generate_dataset():
 
 if __name__ == "__main__":
     generate_dataset()
+
